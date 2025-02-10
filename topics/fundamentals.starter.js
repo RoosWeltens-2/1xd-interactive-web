@@ -8,7 +8,7 @@
 // 1. link this script file to your page and open your developer console
 
 // 2. create a variable that keeps track of your name (can be let, const or var)
-let username = prompt("Name?", "Bob");
+let username = prompt("Name?", "Yana");
 
 // 3. create a variable that asks for your birthyear (use prompt() for that)
 // hint: prompt() returns a string, so you'll need to convert it to a number with parseInt()
@@ -26,7 +26,7 @@ console.log(age);
 function greet(name) {
   console.log(`Hello ${name}, have a nice day.`);
 }
-greet("Bob");
+greet("Yana");
 // 7. write a function named calculateAge() that calculates your age and logs it to the console
 // use the function to print your age to the console
 // hint: the function should take your birthyear as an argument
@@ -63,7 +63,7 @@ feeling();
 // loop through the array and log each food to the console (use a for loop)
 // hint: you can get the length of an array with `array.length`
 
-let foods = ["rice and chicken", "Fries", "Boulette"];
+let foods = ["Mango", "Strawberries", "Pineapple"];
 for (let i = 0; i < foods.length; i++) {
   console.log(foods[i]);
 }
