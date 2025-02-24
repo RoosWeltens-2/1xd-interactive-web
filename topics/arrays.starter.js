@@ -63,4 +63,4 @@ function total() {
   }
   return som;
 }
-console.log(totaal());
+console.log(totaal[i]);
